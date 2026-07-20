@@ -1,0 +1,6 @@
+streamlit==1.59.1
+SQLAlchemy==2.0.51
+Pillow==12.3.0
+pandas==3.0.3
+plotly==6.9.0
+python-dotenv==1.2.2

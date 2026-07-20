@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+
+# Tests and tooling
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and user uploads
+database/*.db
+database/*.db-shm
+database/*.db-wal
+database/*.db-journal
+database/*.sqlite
+database/*.sqlite3
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+work/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+dist/
+build/
+
+# Codex local metadata
+.agents/
+.codex/
